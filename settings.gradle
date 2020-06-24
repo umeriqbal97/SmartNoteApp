@@ -1,0 +1,2 @@
+include ':app', ':rxjavawithroom', ':mvvmrxjavadatabindinglifecycleroomkeynoteapp', ':lib'
+rootProject.name='Smart Note App'

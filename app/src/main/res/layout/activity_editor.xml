@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditorActivity">
+
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="Write notes here"
+
+        />
+
+    <ImageView
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="btnSave"
+        android:src="@drawable/ic_check_2" />
+
+
+</LinearLayout>
